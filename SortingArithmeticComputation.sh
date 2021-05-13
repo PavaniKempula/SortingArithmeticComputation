@@ -9,3 +9,5 @@ expession_1=$(( a+b*c ))
 expession_2=$(( a*b+c ))
 
 expession_3=$(( c+a/b ))
+
+expession_4=$(( a%b+c ))
