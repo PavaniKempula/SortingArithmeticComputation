@@ -21,3 +21,10 @@ result_dict['expession_2']=$expession_2
 result_dict['expession_3']=$expession_3
 
 result_dict['expession_4']=$expession_4
+
+result_array=()
+count=0
+for key in ${!result_dict[@]}
+do
+   result_array[((count++))]=${result_dict[$key]}
+done
